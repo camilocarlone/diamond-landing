@@ -1,4 +1,3 @@
-<script>
         // Code 2 JS adapted
         const spheres = [];
         let draggedSphere = null;
@@ -388,4 +387,3 @@
             }, { threshold: 0.5 });
             pricingObserver.observe(pricingSection);
         }
-    </script>
