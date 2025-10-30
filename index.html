@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond - Breakthrough AI from Data to Deployment</title>
+</head>
+<body>
+    <div class="info" id="info">
+        <h1>💎 Interactive Diamond Experience</h1>
+        <p>Drag and release a sphere to reveal the brilliance!</p>
+    </div>
+    <div class="landing-content" id="landingContent">
+        <!-- Navigation -->
+        <nav>
+            <div class="logo">diamond</div>
+            <div class="nav-links">
+                <a href="#products">Products</a>
+                <a href="#solutions">Solutions</a>
+                <a href="#resources">Resources</a>
+                <a href="#company">Company</a>
+                <a href="#demo" class="btn-primary">Book a Demo →</a>
+            </div>
+        </nav>
+        <!-- Hero Section -->
+        <section class="hero" id="hero-section">
+            <div class="cursor-follower" id="cursorFollower"></div>
+            <div class="visual-shapes">
+                <div class="shape" style="--rotation: -15deg;"></div>
+                <div class="shape" style="--rotation: 10deg;"></div>
+                <div class="shape" style="--rotation: -5deg;"></div>
+            </div>
+            <div class="hero-content">
+                <h1>Breakthrough AI from Data to Deployment</h1>
+                <p>Diamond delivers proven data, evaluations, and outcomes to AI labs, governments, and the Fortune 500.</p>
+                <div class="hero-buttons">
+                    <a href="#demo" class="btn-primary">Book a Demo →</a>
+                    <a href="#build" class="btn-secondary">Build AI →</a>
+                </div>
+            </div>
+            <div class="scroll-indicator" onclick="autoScroll()">
+                <p>Discover More</p>
+                <div class="scroll-arrow">↓</div>
+            </div>
+        </section>
+        <!-- Features Section -->
+        <section id="products">
+            <div class="section-header">
+                <h2>Transform Your AI Vision Into Reality</h2>
+                <p>End-to-end AI infrastructure that powers the world's most advanced models</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Data Excellence</h3>
+                    <p>High-quality training data at scale with human-in-the-loop annotation, ensuring your models learn from the best examples available.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Rapid Deployment</h3>
+                    <p>From prototype to production in weeks, not months. Our platform streamlines every step of the AI development lifecycle.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Enterprise Security</h3>
+                    <p>Bank-level security with SOC 2 Type II compliance, ensuring your sensitive data and models remain protected at all times.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Model Evaluation</h3>
+                    <p>Comprehensive evaluation frameworks that measure performance, safety, and alignment across every dimension that matters.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌐</div>
+                    <h3>Global Scale</h3>
+                    <p>Infrastructure that scales seamlessly from pilot projects to serving billions of requests across every continent.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🤝</div>
+                    <h3>Expert Support</h3>
+                    <p>Dedicated AI engineers and researchers working alongside your team to ensure success at every milestone.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Stats Section -->
+        <section class="stats-section">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3>100+</h3>
+                    <p>Fortune 500 Companies</p>
+                </div>
+                <div class="stat-item">
+                    <h3>10B+</h3>
+                    <p>Data Points Labeled</p>
+                </div>
+                <div class="stat-item">
+                    <h3>50+</h3>
+                    <p>Countries Served</p>
+                </div>
+                <div class="stat-item">
+                    <h3>99.9%</h3>
+                    <p>Platform Uptime</p>
+                </div>
+            </div>
+        </section>
+        <!-- Pricing Section -->
+        <section class="pricing-section">
+            <div class="section-header">
+                <h2>Flexible Pricing Plans</h2>
+                <p>Select from our tiered options with animated insights into value</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card basic">
+                    <h3>Starter</h3>
+                    <div class="price">$<span class="counter" data-target="49">0</span><span>/mo</span></div>
+                    <div class="stat"><span class="counter" data-target="3">0</span> Core Features (Strong essentials, shorter scope)</div>
+                    <div class="stat"><span class="counter" data-target="100">0</span> API Calls/mo</div>
+                    <div class="stat">Email Support</div>
+                </div>
+                <div class="pricing-card pro">
+                    <h3>Pro</h3>
+                    <div class="price">$<span class="counter" data-target="199">0</span><span>/mo</span></div>
+                    <div class="stat"><span class="counter" data-target="8">0</span> Advanced Features</div>
+                    <div class="stat"><span class="counter" data-target="10000">0</span> API Calls/mo</div>
+                    <div class="stat">Priority Support</div>
+                </div>
+                <div class="pricing-card advanced">
+                    <h3>Advanced</h3>
+                    <div class="price">$<span class="counter" data-target="499">0</span><span>/mo</span></div>
+                    <div class="stat"><span class="counter" data-target="15">0</span> Enterprise Features</div>
+                    <div class="stat"><span class="counter" data-target="100000">0</span> API Calls/mo</div>
+                    <div class="stat">24/7 Dedicated Support</div>
+                </div>
+            </div>
+        </section>
+        <!-- Use Cases Section -->
+        <section id="solutions" class="use-cases">
+            <div class="section-header">
+                <h2>Powering AI Across Industries</h2>
+                <p>Real solutions delivering measurable impact</p>
+            </div>
+            <div class="use-case-item">
+                <div class="use-case-content">
+                    <h3>🏥 Healthcare & Life Sciences</h3>
+                    <p>Accelerate drug discovery, enhance diagnostic accuracy, and personalize patient care with AI models trained on world-class medical datasets. Our platform enables breakthrough research while maintaining strict privacy and regulatory compliance.</p>
+                </div>
+                <div class="use-case-visual">🏥</div>
+            </div>
+            <div class="use-case-item">
+                <div class="use-case-content">
+                    <h3>🚗 Autonomous Systems</h3>
+                    <p>Build safer, smarter autonomous vehicles with high-fidelity sensor data labeling and simulation environments. From perception to planning, we provide the infrastructure for next-generation mobility.</p>
+                </div>
+                <div class="use-case-visual">🚗</div>
+            </div>
+            <div class="use-case-item">
+                <div class="use-case-content">
+                    <h3>💼 Enterprise AI</h3>
+                    <p>Transform business operations with custom language models, intelligent automation, and predictive analytics. Deploy AI solutions that understand your domain and drive measurable ROI.</p>
+                </div>
+                <div class="use-case-visual">💼</div>
+            </div>
+            <div class="use-case-item">
+                <div class="use-case-content">
+                    <h3>🏛️ Government & Defense</h3>
+                    <p>Secure AI infrastructure for mission-critical applications. From intelligence analysis to operational planning, deliver national security outcomes with confidence.</p>
+                </div>
+                <div class="use-case-visual">🏛️</div>
+            </div>
+        </section>
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <h2>Ready to Scale Your AI?</h2>
+            <p>Join the world's leading organizations building the future with Diamond AI</p>
+            <div class="hero-buttons">
+                <a href="#demo" class="btn-primary" style="background: #000; color: #fff;">Book a Demo Today →</a>
+                <a href="#contact" class="btn-secondary">Contact Sales</a>
+            </div>
+        </section>
+        <!-- FAQ Section -->
+        <section id="faq">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <p>Everything you need to know about Diamond AI</p>
+            </div>
+            <div class="faq-section">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>What makes Diamond AI different from other platforms?</span>
+                        <span class="faq-toggle">↓</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Diamond AI combines three critical advantages: unmatched data quality through our global network of expert annotators, battle-tested infrastructure that powers leading AI labs and Fortune 500 companies, and comprehensive evaluation frameworks that ensure model safety and performance. We're the only platform that handles the entire AI lifecycle from data preparation to production deployment.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>How long does it take to get started?</span>
+                        <span class="faq-toggle">↓</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Most customers begin seeing value within the first week. Our onboarding process includes a dedicated solutions architect who helps design your data pipeline, configure evaluation metrics, and set up your first production workflow. Simple projects can launch in days, while complex enterprise deployments typically reach production within 4-6 weeks.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>What security and compliance certifications does Diamond have?</span>
+                        <span class="faq-toggle">↓</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Diamond maintains SOC 2 Type II, ISO 27001, HIPAA, and GDPR compliance. We offer government-certified infrastructure for defense and intelligence applications, with FedRAMP authorization in progress. All data is encrypted at rest and in transit, with granular access controls and comprehensive audit logging. We can deploy on-premises or in private cloud environments for maximum security.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Do you support custom AI models and specialized use cases?</span>
+                        <span class="faq-toggle">↓</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely. Diamond's platform is model-agnostic and highly customizable. Whether you're fine-tuning open-source models, building proprietary architectures, or deploying specialized domain models, our infrastructure adapts to your needs. We have dedicated teams with expertise across computer vision, NLP, reinforcement learning, and multimodal AI who can help design custom solutions.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>What kind of support and training do you provide?</span>
+                        <span class="faq-toggle">↓</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Every enterprise customer receives a dedicated customer success manager, access to our technical support team (24/7 for critical issues), and regular business reviews. We offer comprehensive training programs including documentation, video tutorials, hands-on workshops, and certification courses. Our solutions architects work embedded with your team to ensure best practices and optimal outcomes.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>How does pricing work?</span>
+                        <span class="faq-toggle">↓</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Diamond offers flexible pricing models based on your needs: pay-as-you-go for variable workloads, committed use discounts for predictable volumes, and custom enterprise agreements for large-scale deployments. Pricing is transparent and scales with usage across data labeling, model training, and API calls. Contact our sales team for a customized quote based on your specific requirements.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Can Diamond integrate with our existing tools and workflows?</span>
+                        <span class="faq-toggle">↓</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes. Diamond provides robust APIs, SDKs for Python and JavaScript, and pre-built integrations with popular ML frameworks like PyTorch, TensorFlow, and Hugging Face. We integrate seamlessly with cloud providers (AWS, GCP, Azure), data warehouses, MLOps platforms, and CI/CD pipelines. Our platform is designed to fit into your existing infrastructure rather than requiring you to rebuild around us.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>What industries does Diamond serve?</span>
+                        <span class="faq-toggle">↓</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Diamond powers AI across virtually every major industry: automotive and robotics, healthcare and life sciences, retail and e-commerce, financial services, government and defense, technology and software, logistics and supply chain, agriculture, and media and entertainment. Our platform is flexible enough to handle industry-specific requirements while maintaining the scale and reliability needed for mission-critical applications.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <h3>Ready to Transform Your Business?</h3>
+            <p>Join the leading organizations building the future with Diamond AI</p>
+            <div class="social-links">
+                <a href="#" title="LinkedIn">in</a>
+                <a href="#" title="Twitter">𝕏</a>
+                <a href="#" title="GitHub">gh</a>
+                <a href="#" title="Facebook">f</a>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Diamond AI. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <button class="reset-button" onclick="resetScene()">↻ Reset</button>
+    <script src="script.js"></script>
+</body>
+</html>
