@@ -254,17 +254,6 @@
             // Restart animation
             animate();
         }
-        // Create initial spheres
-        const colors = [180, 190, 200, 210, 220];
-        for (let i = 0; i < 8; i++) {
-            const size = 60 + Math.random() * 80;
-            const x = Math.random() * (window.innerWidth - size);
-            const y = Math.random() * (window.innerHeight - size);
-            const hue = colors[Math.floor(Math.random() * colors.length)];
-            createSphere(x, y, size, hue);
-        }
-        // Start animation
-        animate();
         // Add sphere on click (when not dragging)
         let clickStart = null;
         document.addEventListener('mousedown', (e) => {
@@ -387,3 +376,22 @@
             }, { threshold: 0.5 });
             pricingObserver.observe(pricingSection);
         }
+// Create initial spheres
+function init() {
+  const colors = [180, 190, 200, 210, 220];
+  for (let i = 0; i < 8; i++) {
+    const size = 60 + Math.random() * 80;
+    const x = Math.random() * (window.innerWidth - size);
+    const y = Math.random() * (window.innerHeight - size);
+    const hue = colors[Math.floor(Math.random() * colors.length)];
+    createSphere(x, y, size, hue);
+  }
+  animate();
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', init);
+} else {
+  init();
+}
+
